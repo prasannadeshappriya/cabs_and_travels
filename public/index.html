@@ -2,6 +2,7 @@
 <html lang="en" ng-app="cabs_and_travels">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Title</title>
     <!--<base href="/">-->
@@ -9,6 +10,8 @@
     <!--Import CSS files-->
     <link rel="stylesheet" href="app/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="app/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="app/assets/css/navigation.bar.css">
+    <link rel="stylesheet" href="app/assets/css/carousel.css">
 
     <!--Import javascript framework files-->
     <script src="app/assets/js/jquery-3.2.1.min.js"></script>
@@ -31,6 +34,10 @@
     <!--Import AnglerJS services -->
 </head>
 <body ng-controller="MainController">
-    <h1>adasdasdasdsad</h1>
+    <!--Navigation Bar-->
+    <div ng-include="'app/views/components/navbar.view.html'"></div>
+
+    <!--Carousel-->
+    <div ng-include="'app/views/components/carousel.view.html'"></div>
 </body>
 </html>

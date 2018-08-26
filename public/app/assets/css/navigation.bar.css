@@ -1,0 +1,25 @@
+.nav_bar_logo{
+    width: 150px;
+    /*height: 70px;*/
+    margin-top: -5px;
+}
+
+.navbar_top_right{
+    margin-top:-10px;
+    margin-bottom:-10px;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.navbar_bottom_right{
+    margin-top:-20px;
+    margin-bottom:-5px;
+}
+
+@media (max-width: 843px) {
+    .nav_bar_logo{
+        display: none !important;
+    }
+}
