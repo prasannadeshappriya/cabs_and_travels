@@ -23,6 +23,17 @@ app.config(['$routeProvider','$locationProvider',
                     }
                 }
             })
+            .when("/contact", {
+                //Home page
+                templateUrl : "app/views/contact.view.html",
+                controller: 'MainController',
+                resolve:{
+                    init : function () {
+                        //Nothing here for now
+                        console.log('contact page route triggered');
+                    }
+                }
+            })
             .otherwise({redirectTo: '/home'});
 
             // use the HTML5 History API
