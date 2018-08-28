@@ -18,8 +18,17 @@
     margin-bottom:-5px;
 }
 
-@media (max-width: 843px) {
+@media (max-width: 992px) {
     .nav_bar_logo{
         display: none !important;
+    }
+    .nav-upper{
+        display: none;
+    }
+    .navbar-lower{
+        margin-top: 20px;
+    }
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        background-color: #e7e7e7;
     }
 }
