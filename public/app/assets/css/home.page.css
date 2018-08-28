@@ -1,0 +1,57 @@
+/*Carousel*/
+.carousel_main{
+    margin-top: -20px;
+}
+
+/*Home Page*/
+.content_one{
+    margin-top:-20px;
+    background-color: #ffb400;
+    color: white;
+    padding: 50px;
+}
+.content_one h2{
+    text-align: center;
+    font-weight: bold;
+}
+hr{
+    border-width: 3px;
+    max-width: 50px;
+}
+.content_one p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.services_one {
+    height: 100%;
+    /*background: url(https://www.remotetraveler.com/wp-content/uploads/2015/01/Royal-Bengal-tiger-in-Kanha-National-Park.jpg) no-repeat bottom center;*/
+    background: url(../images/home/service_bg.jpg) no-repeat bottom center;
+    /*-webkit-filter: brightness(200%); !* Safari *!*/
+    /*filter: contrast(40%);*/
+    filter: blur(50%);
+    width: 100%;
+    color: white;
+    padding: 50px;
+}
+.services_one h2{
+    text-align: center;
+    font-weight: bold;
+
+}
+.services_one .hr_orange{
+    border-color: #ffb400;
+}
+.services_one p{
+    text-align: center;
+    font-size: 16px;
+}
+.services_one h3{
+    text-align: center;
+}
+.service_image_border{
+    border: 3px solid #ffb400;
+    border-radius: 25px;
+    background: white;
+    text-align: center;
+}
