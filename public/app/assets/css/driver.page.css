@@ -1,0 +1,39 @@
+.driver-box{
+    margin-top:0px;
+    background-color: #ffb400;
+    color: white;
+    padding: 50px;
+}
+.driver-box h2{
+    text-align: center;
+}
+.driver-box p{
+    font-size: 16px;
+    text-align: center;
+}
+.driver-title{
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px;
+}
+.driver-title .hr_orange{
+    border-color: #ffb400;
+}
+
+.driver{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.driver .hr_orange{
+    border-color: #ffb400;
+    max-width: 100px;
+}
+.driver p{
+    font-size: 16px;
+}
+.driver img{
+    margin-top: 20px;
+}

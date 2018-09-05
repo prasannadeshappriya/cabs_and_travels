@@ -34,6 +34,17 @@ app.config(['$routeProvider','$locationProvider',
                     }
                 }
             })
+            .when("/drivers", {
+                //Home page
+                templateUrl : "app/views/driver.view.html",
+                controller: 'MainController',
+                resolve:{
+                    init : function () {
+                        //Nothing here for now
+                        console.log('driver page route triggered');
+                    }
+                }
+            })
             .otherwise({redirectTo: '/home'});
 
             // use the HTML5 History API
