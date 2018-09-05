@@ -37,3 +37,14 @@
 .driver img{
     margin-top: 20px;
 }
+
+.service-desc{
+    margin-bottom: 25px;
+}
+.service-desc .hr_orange{
+    border-color: #ffb400;
+    max-width: 100px;
+}
+.content{
+    margin-top: 25px;
+}
