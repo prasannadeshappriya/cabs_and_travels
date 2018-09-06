@@ -5,7 +5,7 @@ var app = angular.module('cabs_and_travels', [
 
 //Configure the constants
 app.constant(
-    'host_url', 'https://localhost:3000/admin/'
+    'host_url', 'https://sscabs.alwaysdata.net/admin/'
 );
 
 //Alwaysdata.net Link:
