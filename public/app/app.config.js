@@ -56,6 +56,17 @@ app.config(['$routeProvider','$locationProvider',
                     }
                 }
             })
+            .when("/vehicles", {
+                //Home page
+                templateUrl : "app/views/vehicles.view.html",
+                controller: 'MainController',
+                resolve:{
+                    init : function () {
+                        //Nothing here for now
+                        console.log('vehicles page route triggered');
+                    }
+                }
+            })
             .otherwise({redirectTo: '/home'});
 
             // use the HTML5 History API

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="app/assets/css/footer.css">
     <link rel="stylesheet" href="app/assets/css/contact.page.css">
     <link rel="stylesheet" href="app/assets/css/driver.page.css">
+    <link rel="stylesheet" href="app/assets/css/vehicles.page.css">
 
     <!--Import javascript framework files-->
     <script src="app/assets/js/jquery-3.2.1.min.js"></script>
@@ -42,16 +43,6 @@
     <script src="app/assets/js/main.js"></script>
 </head>
 <body ng-controller="MainController">
-    <!--Facebook Plugin Initialize-->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=120445411938183&autoLogAppEvents=1';
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
     <!--Navigation Bar-->
     <div ng-include="'app/views/components/navbar.view.html'"></div>
 
