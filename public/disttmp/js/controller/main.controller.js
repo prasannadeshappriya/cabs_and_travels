@@ -1,0 +1,1 @@
+app.controller("MainController",["$scope",function(o){console.log("This is a test")}]);

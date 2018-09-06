@@ -122,7 +122,6 @@ gulp.task('clean', () => del(['dist']));
 gulp.task('default', ['clean'], function () {
     runSequence(
         'image-min',
-        'jshint',
         'uglify-error',
         'scripts',
         'styles',
