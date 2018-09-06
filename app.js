@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/admin', routes);
 app.all('/*', function(req, res, next) {
     // Just send the index.html for other files to support HTML5Mode
-    res.sendFile(__dirname + '/public/index.html');
+    res.sendFile(__dirname + '/public/dist/index.html');
 });
 
 // catch 404 and forward to error handler

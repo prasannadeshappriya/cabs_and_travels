@@ -7,49 +7,49 @@
 
     <!--Base URL and site icon configuration-->
     <base href="/">
-    <link rel="icon" type="image/png" href="icon.png" />
+    <link rel="icon" type="image/png" href="dist/icon.png" />
 
     <!--Import CSS files-->
-    <link rel="stylesheet" href="app/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="app/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="app/assets/css/navigation.bar.css">
-    <link rel="stylesheet" href="app/assets/css/home.page.css">
-    <link rel="stylesheet" href="app/assets/css/footer.css">
-    <link rel="stylesheet" href="app/assets/css/contact.page.css">
-    <link rel="stylesheet" href="app/assets/css/driver.page.css">
-    <link rel="stylesheet" href="app/assets/css/vehicles.page.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/css/navigation.bar.css">
+    <link rel="stylesheet" href="dist/css/home.page.css">
+    <link rel="stylesheet" href="dist/css/footer.css">
+    <link rel="stylesheet" href="dist/css/contact.page.css">
+    <link rel="stylesheet" href="dist/css/driver.page.css">
+    <link rel="stylesheet" href="dist/css/vehicles.page.css">
 
     <!--Import javascript framework files-->
-    <script src="app/assets/js/jquery-3.2.1.min.js"></script>
-    <script src="app/assets/js/bootstrap.min.js"></script>
+    <script src="dist/js/assets/js/jquery-3.2.1.min.js"></script>
+    <script src="dist/js/assets/js/bootstrap.min.js"></script>
 
     <!--Import AnglerJS files -->
-    <script src="app/vendor/angular.min.js"></script>
-    <script src="app/vendor/angular-route.js"></script>
-    <script src="app/vendor/ngStorage.min.js"></script>
-    <script src="app/vendor/moment.min.js"></script>
+    <script src="dist/js/vendor/angular.min.js"></script>
+    <script src="dist/js/vendor/angular-route.js"></script>
+    <script src="dist/js/vendor/ngStorage.min.js"></script>
+    <script src="dist/js/vendor/moment.min.js"></script>
 
     <!--Angular modules, run, config files-->
-    <script src="app/app.modules.js"></script>
-    <script src="app/app.config.js"></script>
-    <script src="app/app.run.js"></script>
+    <script src="dist/js/app.modules.js"></script>
+    <script src="dist/js/app.config.js"></script>
+    <script src="dist/js/app.run.js"></script>
 
     <!--Import AnglerJS Controllers -->
-    <script src="app/controller/main.controller.js"></script>
+    <script src="dist/js/controller/main.controller.js"></script>
 
     <!--Import AnglerJS services -->
 
     <!--JS files-->
-    <script src="app/assets/js/main.js"></script>
+    <script src="dist/js/assets/js/main.js"></script>
 </head>
 <body ng-controller="MainController">
     <!--Navigation Bar-->
-    <div ng-include="'app/views/components/navbar.view.html'"></div>
+    <div ng-include="'dist/views/components/navbar.view.html'"></div>
 
     <!--Show route contents-->
     <div ng-view class="stretch-ng-view"></div>
 
     <!--Footer Section-->
-    <div ng-include="'app/views/components/footer.view.html'"></div>
+    <div ng-include="'dist/views/components/footer.view.html'"></div>
 </body>
 </html>

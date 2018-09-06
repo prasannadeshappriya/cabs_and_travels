@@ -1,11 +1,11 @@
-const app = angular.module('cabs_and_travels', [
+var app = angular.module('cabs_and_travels', [
     'ngStorage',
     'ngRoute',
 ]);
 
 //Configure the constants
 app.constant(
-    'host_url', 'https://sscabs.alwaysdata.net/admin/'
+    'host_url', 'https://localhost:3000/admin/'
 );
 
 //Alwaysdata.net Link:

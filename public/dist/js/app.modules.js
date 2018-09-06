@@ -1,0 +1,1 @@
+var app=angular.module("cabs_and_travels",["ngStorage","ngRoute"]);app.constant("host_url","https://localhost:3000/admin/");

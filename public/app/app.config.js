@@ -3,7 +3,7 @@ app.config(['$routeProvider','$locationProvider',
         $routeProvider
             .when("/", {
                 //Home page
-                templateUrl : "app/views/home.view.html",
+                templateUrl : "dist/views/home.view.html",
                 controller: 'MainController',
                 resolve:{
                     init : function () {
@@ -14,7 +14,7 @@ app.config(['$routeProvider','$locationProvider',
             })
             .when("/home", {
                 //Home page
-                templateUrl : "app/views/home.view.html",
+                templateUrl : "dist/views/home.view.html",
                 controller: 'MainController',
                 resolve:{
                     init : function () {
@@ -25,7 +25,7 @@ app.config(['$routeProvider','$locationProvider',
             })
             .when("/contact", {
                 //Home page
-                templateUrl : "app/views/contact.view.html",
+                templateUrl : "dist/views/contact.view.html",
                 controller: 'MainController',
                 resolve:{
                     init : function () {
@@ -36,7 +36,7 @@ app.config(['$routeProvider','$locationProvider',
             })
             .when("/drivers", {
                 //Home page
-                templateUrl : "app/views/driver.view.html",
+                templateUrl : "dist/views/driver.view.html",
                 controller: 'MainController',
                 resolve:{
                     init : function () {
@@ -47,7 +47,7 @@ app.config(['$routeProvider','$locationProvider',
             })
             .when("/services", {
                 //Home page
-                templateUrl : "app/views/service.view.html",
+                templateUrl : "dist/views/service.view.html",
                 controller: 'MainController',
                 resolve:{
                     init : function () {
@@ -58,7 +58,7 @@ app.config(['$routeProvider','$locationProvider',
             })
             .when("/vehicles", {
                 //Home page
-                templateUrl : "app/views/vehicles.view.html",
+                templateUrl : "dist/views/vehicles.view.html",
                 controller: 'MainController',
                 resolve:{
                     init : function () {
