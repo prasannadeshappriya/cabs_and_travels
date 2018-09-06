@@ -1,3 +1,10 @@
+<script type="application/javascript">
+    $(document).on('click','.navbar-collapse.in',function(e) {
+        if( $(e.target).is('a:not(".dropdown-toggle")') ) {
+            $(this).collapse('hide');
+        }
+    });
+</script>
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->

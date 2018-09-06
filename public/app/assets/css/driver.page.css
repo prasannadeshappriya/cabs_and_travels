@@ -1,6 +1,6 @@
 .driver-box{
     margin-top:0px;
-    background-color: #ffb400;
+    background-color: #4e9d69;
     color: white;
     padding: 50px;
 }
@@ -20,7 +20,7 @@
     padding: 50px;
 }
 .driver-title .hr_orange{
-    border-color: #ffb400;
+    border-color: #4e9d69;
 }
 
 .driver{
@@ -28,7 +28,7 @@
     margin-bottom: 25px;
 }
 .driver .hr_orange{
-    border-color: #ffb400;
+    border-color: #4e9d69;
     max-width: 100px;
 }
 .driver p{
@@ -37,12 +37,17 @@
 .driver img{
     margin-top: 20px;
 }
+@media (max-width: 1200px) {
+    .driver .driver-swap{
+        display: flex; flex-direction: column-reverse;
+    }
+}
 
 .service-desc{
     margin-bottom: 25px;
 }
 .service-desc .hr_orange{
-    border-color: #ffb400;
+    border-color: #4e9d69;
     max-width: 100px;
 }
 .content{
